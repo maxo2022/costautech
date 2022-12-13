@@ -154,3 +154,18 @@ footer {
   size: 25px;
   }
 
+
+
+
+.garantie {
+  width: auto;
+  height: auto;
+  background-color: lightblue;
+  border: 5px outset yellowgreen;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  size: 25px;
+  }
+
+  
