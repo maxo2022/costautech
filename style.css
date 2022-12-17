@@ -5,7 +5,7 @@
   
 color: white;
 display: block;
-padding: 10px;
+padding: 0%;
 margin-top: 0px;
 list-style-type: none;
 width: auto;
@@ -25,7 +25,7 @@ background-color: gold;
   width: auto;
   height: 40px;
   padding-left: 25px;
-  padding-right: 25px;
+  padding-right: 0%;
   border: 35px;
   
 
@@ -37,7 +37,7 @@ body {
   width: 65%;
 background-color: white;
 margin-left: 17%;
-margin-right: 0%;
+margin-right: 17%;
 
 }
 
@@ -168,4 +168,39 @@ footer {
   size: 25px;
   }
 
+  .FAQ {
+    width: auto;
+    height: auto;
+    background-color: lightblue;
+    border: 5px outset yellowgreen;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    size: 25px;
+    }
+
+
+
+    .Services {
+      width: 100%;
+      height: auto;
+      background-color: lightblue;
+      border: 5px outset yellowgreen;
+      font-size: 20px;
+      
+      
+      
+    }
+
+    @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
+        font-size: auto;
+        padding-right: auto;
+        padding: auto;
+      }
+    }
   
+
+
+    
