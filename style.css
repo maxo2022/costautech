@@ -1,218 +1,264 @@
 
 
-/* styler le menu */
+/* styler le menu/navigation */
 .nav1 ul {
   
 color: white;
 display: block;
-padding: 0%;
-margin-top: 0px;
+padding: 20px;
+margin-top: 5px;
 list-style-type: none;
 width: auto;
-height: 50px;
+height: 40px;
 text-align: center;
-size: 25px;
-border: 35px;
+font: 15px;
+border: 25px;
 background-color: gold;
-
 } 
 
-.nav1 li {
 
+
+.nav1 li {
   display: inline;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
   width: auto;
-  height: 40px;
-  padding-left: 25px;
-  padding-right: 0%;
-  border: 35px;
+  height: 100px;
+ font-size: 15px;
+  border: 15px;
   
+} 
 
-  }
+
+  
+/* styler le menu/navigation */
+ .nav1 a {
+  
+  text-decoration: none;
+} 
 
 
 /*styler le Body*/
 body {
-  width: 65%;
-background-color: white;
+width: 65%;
+background-color: rgb(196, 221, 230);
 margin-left: 17%;
 margin-right: 17%;
+border: 20px outset rgb(195, 222, 231);
+
 
 }
 
 
-
-
-
 /*styler le footer*/
-footer {
+   footer {
     text-align: left;
     width: auto;
     padding-left: 25px;
-    color: black;
     padding-top: 40px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    background-color: rgb(200, 220, 200)
-    
-    
+    background-color: rgb(200, 248, 200);
+  
   }
 
 
- 
- 
-  .leplan ul {
+
+ /* styler le plan du site */
+  .leplan {
     display: block;
     list-style: none;
     width: auto;
     height: auto;
-    border: 5px outset yellowgreen;
-    background-color: lightblue;
     text-align: left;
     font-size: large;
     padding-bottom: 10px;
+    background-color: lightblue;
+    border: 5px outset white
    
   }
 
-
+/* styler l'audio */
   .myaudio { 
     width: auto;
     height: 400px;
-    background-color: lightblue;
-    border: 5px outset yellowgreen;
-   }
+    background-color: white;
+    border: 5px outset white;
+  
+    } 
 
-   .myvideo{
+   
+    /* styler la vidéo */
+   .myvideo {
     width: auto;
     height: auto;
     background-color: lightblue;
-    border: 5px outset yellowgreen;
+    border: 5px outset white;
     padding-bottom: 5px;
     padding-left: 20px;
+    margin-left: auto;
 
-
-
-
-   }
-
+    }
+   
+    /* styler la page de contact */
    .adresse{
     width: auto;
     height: auto;
-    background-color: lightblue;
-    border: 5px outset yellowgreen;
     padding-left: 5px;
+    margin-left: auto;
     padding-right: 5px;
     padding-bottom: 0px;
+    background-color: lightblue;
+    border: 5px outset white;
 
  }
 
+
+ /* styler l'image de la page de contact */
  .contact-image {
   width: auto;
   height: auto;
-  background-color: lightblue;
-  border: 5px outset yellowgreen;
   padding-left: 30px;
   padding-right: 20px;
+  margin-left: auto;
   padding-bottom: 20px;
+  background-color: lightblue;
+  border: 5px outset white;
 
 }
 
+
+/* styler l'image de la page d'accueil */
 .image-accueil {
   width: auto;
   height: auto;
-  background-color: lightblue;
-  border: 5px outset yellowgreen;
   padding-left: 5px;
+  margin-left: auto;
   padding-right: 5px;
   padding-top: 5px;
+  background-color: lightblue;
+    border: 5px outset white;
   
 
   }
   
   
-
-
-  
-
-
+  /* styler le text de la page d'accueil */
 .accueil-2 {
   width: auto;
   height: auto;
-  background-color: lightblue;
-  border: 5px outset yellowgreen;
   padding-left: 5px;
   padding-right: 5px;
+  margin-left: auto;
   padding-top: 5px;
   size: 25px;
+  background-color: lightblue;
+    border: 5px outset white;
   
   
 
 }
-
+/* styler l'image de la page à propos */
 .apropos2 {
   width: auto;
   height: auto;
-  background-color: lightblue;
-  border: 5px outset yellowgreen;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
+  margin-left: auto;
   size: 25px;
+  background-color: lightblue;
+    border: 5px outset white;
   }
 
 
 
-
-.garantie {
-  width: auto;
+/* styler le texte de la page garantie */
+  .garantie {
+  width: 100%;
   height: auto;
-  background-color: lightblue;
-  border: 5px outset yellowgreen;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
-  size: 25px;
+  margin-left: auto;
+ background-color: lightblue;
+  border: 5px outset white;
   }
 
-  .FAQ {
+
+  /* styler le texte de la page de FAQ */
+  .faq {
     width: auto;
     height: auto;
-    background-color: lightblue;
-    border: 5px outset yellowgreen;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
+    margin-left: auto;
     size: 25px;
+    background-color: lightblue;
+    border: 5px outset white;
+    
+    }
+
+   
+   /* styler le texte de la page du site d'interet */
+    .site-interet { 
+    width: auto;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    padding-top: 5px;
+    size: 25px;
+    background-color: lightblue;
+    border: 5px outset white;
+
+
+
     }
 
 
-
+/* styler le texte de la page de service */
     .Services {
       width: 100%;
       height: auto;
+      font-size: 18px;
       background-color: lightblue;
-      border: 5px outset yellowgreen;
-      font-size: 20px;
-      
+    border: 5px outset white;
+    
       
       
     }
-
+    /* styler configurer le site pour téléphone */
     @media only screen and (max-width: 600px) {
       body {
         background-color: lightblue;
         font-size: auto;
         padding-right: auto;
         padding: auto;
+        font: 16px;
+        border: 10px outset whitesmoke;
+        
       }
     }
 
+   /* styler la balise H1 */
+    h1{ 
+   font-size: 20px;
+
+    }
 
 
+    /* styler la balise H2 */
+    h2{ 
+      font-size: 15px;
+   
+       }
     
       
   
-
+       
+      
+    
 
     
